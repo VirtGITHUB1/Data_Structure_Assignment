@@ -9,7 +9,7 @@ my_list.insert(1, 15)
 
 my_list.extend([50, 60, 70])
 
-removed = my_list.pop()   # same as my_list.pop(-1)
+removed = my_list.pop(-1)
 print("removed:", removed)
 
 my_list.sort()
